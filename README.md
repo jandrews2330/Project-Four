@@ -91,8 +91,8 @@ Error maps reveal some spatial clusters where prediction models consistently und
 
 ## 🧑‍🤝‍🧑 Team
 
-- **Sofonias Abebe**
 - **Asres Dagnew**
+- **Sofonias Abebe**
 - **Jennefir Andrews**
 - **Leonardo Rios**
 
