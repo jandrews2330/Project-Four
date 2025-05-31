@@ -24,6 +24,8 @@ pnw-earthquake-project/
 ├── unsupervised_model.ipynb        # KMeans clustering and exploration
 ├── finalized_earthquake_notebook.ipynb # Final regression/classification models
 ├── app_instructions.md             # Basic usage instructions
+├── create_earthquake_table.sql     # Table schema
+├── earthquake_data.sqlite          # Sqlite output  
 └── README.md                       # This file
 
 ```
