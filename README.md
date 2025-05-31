@@ -82,7 +82,7 @@ pnw-earthquake-project/
 
 Earthquake frequency has increased slightly in recent years, possibly due to improved detection or tectonic shifts. Most earthquakes in the PNW are of low to moderate magnitude (M < 4), with occasional spikes in higher magnitudes. Epicenters are concentrated along tectonic boundaries—especially the Cascadia Subduction Zone. KMeans clustering revealed distinct seismic zones, helping define risk-prone regions for targeted monitoring. 
 
-Earthquake occurrence does not show strong seasonal trends, but monthly breakdowns support the creation of cyclical features (e.g., month_sin, month_cos) for modeling.Earthquake occurrence does not show strong seasonal trends, but monthly breakdowns support the creation of cyclical features (e.g., month_sin, month_cos) for modeling. However, aggregating historical quakes into temporal bins (e.g., time_bin) allowed richer features for prediction models. 
+Earthquake occurrence does not show strong seasonal trends, but monthly breakdowns support the creation of cyclical features (e.g., month_sin, month_cos) for modeling. However, aggregating historical quakes into temporal bins (e.g., time_bin) allowed richer features for prediction models. 
 
 Random Forest achieved strong performance with accuracy and recall above baseline using features like location, historical quake count, and time bin. For magnitude, model captured general trends, but high residuals in outlier cases suggest limits in predicting extreme magnitudes. 
 
