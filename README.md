@@ -32,14 +32,14 @@ pnw-earthquake-project/
 
 ## ⚙️ How It Works
 
-### 🧼 1. Data Preparation (`PNW_ETL.ipynb`)
+### 🧼 1. Data Preparation 
 
 - Loads raw USGS earthquake data
 - Cleans and normalizes columns
 - Adds time and spatial binning (e.g., `lat_bin`, `lon_bin`, `time_bin`)
 - Saves final dataset to `Resources/pnw_final.csv`
 
-### 📊 2. Data Exploration (`EDA.ipynb`)
+### 📊 2. Data Exploration 
 
 - Visualizes magnitude distribution, quake count by year/month
 - Identifies geospatial trends and outliers
@@ -51,7 +51,7 @@ pnw-earthquake-project/
 - `finalized_earthquake_notebook.ipynb`: Refines models with temporal and aggregate features
 - `unsupervised_model.ipynb`: Applies KMeans clustering to identify seismic risk zones
 
-### 💻 4. Interactive Dashboard (`pnw_dash_app.py`)
+### 💻 4. Interactive Dashboard 
 
 - Built with Dash + Plotly + Folium
 - Includes 6 interactive tabs:
@@ -61,7 +61,6 @@ pnw-earthquake-project/
   - 🔮 **ML Prediction**: Predicts quake probability and magnitude by date/location
   - 🗺️ **Residual Error Maps**: Visualizes ML model performance
   - 📝 **Slide Deck**: Built-in PDF presentation
-
 
 
 ## 📷 Sample Visuals
