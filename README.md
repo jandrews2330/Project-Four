@@ -55,7 +55,7 @@ pnw-earthquake-project/
 
 - Built with Dash + Plotly + Folium
 - Includes 6 interactive tabs:
-  - 🔍 **Overview**: Static summary charts
+  - 🔍 **EDA**: Static summary charts
   - 📌 **Quake Maps**: Toggle between Folium and Plotly maps
   - 📊 **Model Indicators**: Feature importance and regression performance
   - 🔮 **ML Prediction**: Predicts quake probability and magnitude by date/location
