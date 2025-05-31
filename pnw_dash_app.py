@@ -224,9 +224,8 @@ app.layout = dbc.Container([
         # Slide deck presentation (PDF iframe)
         dcc.Tab(label='📝 Slide Deck', children=[
             html.Div([
-                html.H5("Slide Deck Presentation", className="mt-3"),
                 html.Iframe(
-                    src="/assets/placeholder_slide_deck.pdf",
+                    src="/assets/slide_deck.pdf",
                     style={"width": "100%", "height": "800px", "border": "none"}
                 )
             ], className="p-4")
