@@ -61,6 +61,25 @@ This project explores earthquake occurrence and magnitude prediction in the Paci
 
 - Earthquake **occurrence** is best predicted by **spatial location and timing**  
 - Earthquake **magnitude** is more influenced by **prior seismic intensity**  
-- Clustering revealed **distinct seismic hotspots** that align with fault zones  
+- Clustering revealed **distinct seismic hotspots** that align with fault zones 
+
+## References 
+1. Scikit-learn Documentation: https://scikit-learn.org/stable/documentation.html
+> Used for RandomForestClassifier, RandomForestRegressor and evaluation metrics.
+2. imblearn (imbalanced-learn): https://imbalanced-learn.org/stable/
+> Used for SMOTE and other class balancing techniques.
+3. Plotly Express & Dash: https://plotly.com/python/
+> Used for interactive error maps and visualizations.
+4. Scientific Reports - Improving earthquake prediction accuracy in Los Angeles with machine learning:  https://www.nature.com/articles/s41598-024-76483-x
+5. Pandas Documentation: https://pandas.pydata.org/docs/
+> Essential for data manipulation, cleaning, temporal grouping, and spatial binning
+6. NumPy Documentation: https://numpy.org/doc/
+> Core library for numerical computing, used for spatial grids, feature calculations
+7. USGS Earthquake Catalog API: https://earthquake.usgs.gov/fdsnws/event/1/
+> Source of historical and real-time earthquake data for North America and beyond
+8. Scikit-learn KMeans Clustering: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+> For grouping earthquake epicenters or locations by magnitude/frequency/depth
+9. Class Discussions and Activities
+ 
 
 
