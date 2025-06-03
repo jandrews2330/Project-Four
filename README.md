@@ -92,7 +92,7 @@ Error maps reveal some spatial clusters where prediction models consistently und
 
 - **Asres Dagnew**
 - **Sofonias Abebe**
-- **Jennefir Andrews**
+- **Jennifer Andrews**
 - **Leonardo Rios**
 
 ---
